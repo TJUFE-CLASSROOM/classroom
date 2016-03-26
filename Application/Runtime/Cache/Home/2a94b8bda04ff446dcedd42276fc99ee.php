@@ -62,7 +62,7 @@
 			$(function() {
 				$.ajax({
 					type: "get",
-					url: "getUser",
+					url: "/app_tjufe/index.php/Home/Index/getUser",
 					async: true,
 					success: function(r) {
 						var names = JSON.parse(r);
@@ -75,7 +75,7 @@
 				});
 				
 				$("#btn-go2next").click(function(){
-					window.location = "../Main/index";
+					window.location = "/app_tjufe/index.php/Home/List";
 				});
 			});
 		</script>

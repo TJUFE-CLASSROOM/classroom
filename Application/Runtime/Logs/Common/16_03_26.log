@@ -1,0 +1,114 @@
+[ 2016-03-26T12:06:52+08:00 ] 127.0.0.1 /app_tjufe/getUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+ERR: 无法加载模块:GetUser
+
+[ 2016-03-26T12:06:52+08:00 ] 127.0.0.1 /app_tjufe/getUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+ERR: 无法加载模块:GetUser
+
+[ 2016-03-26T12:07:34+08:00 ] 127.0.0.1 /app_tjufe/getUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+ERR: 无法加载模块:GetUser
+
+[ 2016-03-26T12:11:21+08:00 ] 127.0.0.1 /app_tjufe/List
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+ERR: 无法加载模块:List
+
+[ 2016-03-26T12:22:29+08:00 ] 127.0.0.1 /app_tjufe/SimplaAdmin/resources/css/reset.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+ERR: 无法加载模块:SimplaAdmin
+
+[ 2016-03-26T12:22:29+08:00 ] 127.0.0.1 /app_tjufe/SimplaAdmin/resources/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+ERR: 无法加载模块:SimplaAdmin
+
+[ 2016-03-26T12:22:29+08:00 ] 127.0.0.1 /app_tjufe/SimplaAdmin/resources/css/invalid.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+ERR: 无法加载模块:SimplaAdmin
+
+[ 2016-03-26T12:22:29+08:00 ] 127.0.0.1 /app_tjufe/SimplaAdmin/resources/scripts/jquery-1.3.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001185s ]
+ERR: 无法加载模块:SimplaAdmin
+
+[ 2016-03-26T12:22:29+08:00 ] 127.0.0.1 /app_tjufe/SimplaAdmin/resources/scripts/simpla.jquery.configuration.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+ERR: 无法加载模块:SimplaAdmin
+
+[ 2016-03-26T12:22:29+08:00 ] 127.0.0.1 /app_tjufe/SimplaAdmin/resources/scripts/facebox.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+ERR: 无法加载模块:SimplaAdmin
+
+[ 2016-03-26T12:22:29+08:00 ] 127.0.0.1 /app_tjufe/SimplaAdmin/resources/scripts/jquery.wysiwyg.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+ERR: 无法加载模块:SimplaAdmin
+
+[ 2016-03-26T12:22:29+08:00 ] 127.0.0.1 /app_tjufe/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+ERR: 无法加载模块:Logo
+
+[ 2016-03-26T12:23:12+08:00 ] 127.0.0.1 /app_tjufe/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:Logo
+
+[ 2016-03-26T12:24:33+08:00 ] 127.0.0.1 /app_tjufe/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001337s ]
+ERR: 无法加载模块:Logo
+
+[ 2016-03-26T12:35:05+08:00 ] 127.0.0.1 /app_tjufe/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+ERR: 无法加载模块:Logo
+
+[ 2016-03-26T12:35:05+08:00 ] 127.0.0.1 /app_tjufe/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-03-26T12:35:27+08:00 ] 127.0.0.1 /app_tjufe/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+ERR: 无法加载模块:Logo
+
+[ 2016-03-26T12:47:16+08:00 ] 127.0.0.1 /app_tjufe/Easy_UI/extension/jquery-easyui-datagridview/datagrid-detailview.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+ERR: 无法加载模块:Easy_UI
+
+[ 2016-03-26T13:17:14+08:00 ] 127.0.0.1 /app_tjufe/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+ERR: 无法加载模块:Favicon
+
