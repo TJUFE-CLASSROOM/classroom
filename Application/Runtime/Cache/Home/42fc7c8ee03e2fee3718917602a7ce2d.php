@@ -7,12 +7,14 @@
 		<title></title>
 		<link href="/app_tjufe/css/mui.min.css" rel="stylesheet" />
 		<link href="/app_tjufe/css/mui.indexedlist.css" rel="stylesheet" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
 		<style>
 			html,
 			body {
 				height: 100%;
 				overflow: hidden;
 			}
+			
 			.mui-bar {
 				-webkit-box-shadow: none;
 				box-shadow: none;
@@ -62,7 +64,7 @@
 				<div class="mui-indexed-list-inner">
 					<div class="mui-indexed-list-empty-alert">没有数据</div>
 					<ul class="mui-table-view">
-						<li data-group="A" class="mui-table-view-divider mui-indexed-list-group">A</li>
+						<!--<li data-group="A" class="mui-table-view-divider mui-indexed-list-group">A</li>
 						<li data-value="AKU" data-tags="AKeSu" class="mui-table-view-cell mui-indexed-list-item">阿克苏机场</li>
 						<li data-value="BPL" data-tags="ALaShanKou" class="mui-table-view-cell mui-indexed-list-item">阿拉山口机场</li>
 						<li data-value="AAT" data-tags="ALeTai" class="mui-table-view-cell mui-indexed-list-item">阿勒泰机场</li>
@@ -243,7 +245,7 @@
 						<li data-value="ZHY" data-tags="ZhongWeiXiangShan" class="mui-table-view-cell mui-indexed-list-item">中卫香山机场</li>
 						<li data-value="HSN" data-tags="ZhouShanZhuJiaJian" class="mui-table-view-cell mui-indexed-list-item">舟山朱家尖机场</li>
 						<li data-value="ZUH" data-tags="ZhuHaiSanZao" class="mui-table-view-cell mui-indexed-list-item">珠海三灶机场</li>						
-					</ul>
+					</ul>-->
 				</div>
 			</div>
 		</div>
@@ -252,6 +254,38 @@
 		<script type="text/javascript" charset="utf-8">
 			mui.init();
 			mui.ready(function() {
+				var data = [{
+					group: "A",
+					list: [
+						"315",
+						"203",
+						"203",
+						"203",
+						"203",
+						"203",
+						"203",
+						"203",
+						"203",
+						"203",
+						"203",
+						"203",
+						"203",
+						"203",
+						"203",
+					]
+				}, {
+					group: "K",
+					list: ["214T"]
+				}, {
+					group: "二教",
+					list: ["214"]
+				}];
+				for (i = 0; i < data.length; i++) {
+					$("ul").append('<li data-group="' + data[i].group + '" class="mui-table-view-divider mui-indexed-list-group">' + data[i].group + '</li>');
+					for (j = 0; j < data[i].list.length; j++) {
+						$("ul").append('<li data-value="' + data[i].list[j] + '" data-tags="' + data[i].list[j] + '" class="mui-table-view-cell mui-indexed-list-item">' + data[i].list[j] + '</li>');
+					}
+				}
 				var header = document.querySelector('header.mui-bar');
 				var list = document.getElementById('list');
 				//calc hieght

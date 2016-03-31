@@ -74,25 +74,25 @@
 				});
 			});
 			//
-			//			function saveItem(index) {
-			//				var row = $('#dg').datagrid('getRows')[index];
-			//				var url = row.isNewRecord ? 'BikeType/save_bike_type' : 'BikeType/update_bike_type/?type_id=' + row.type_id;
-			//				$('#dg').datagrid('getRowDetail', index).find('form').form('submit', {
-			//					url: url,
-			//					onSubmit: function() {
-			//						return $(this).form('validate');
-			//					},
-			//					success: function(data) {
-			//						data = eval('(' + data + ')');
-			//						data.isNewRecord = false;
-			//						$('#dg').datagrid('collapseRow', index);
-			//						$('#dg').datagrid('updateRow', {
-			//							index: index,
-			//							row: data
-			//						});
-			//					}
-			//				});
-			//			}
+//			function saveItem(index) {
+//				var row = $('#dg').datagrid('getRows')[index];
+//				var url = row.isNewRecord ? 'BikeType/save_bike_type' : 'BikeType/update_bike_type/?type_id=' + row.type_id;
+//				$('#dg').datagrid('getRowDetail', index).find('form').form('submit', {
+//					url: url,
+//					onSubmit: function() {
+//						return $(this).form('validate');
+//					},
+//					success: function(data) {
+//						data = eval('(' + data + ')');
+//						data.isNewRecord = false;
+//						$('#dg').datagrid('collapseRow', index);
+//						$('#dg').datagrid('updateRow', {
+//							index: index,
+//							row: data
+//						});
+//					}
+//				});
+//			}
 			//
 			function cancelItem(index) {
 				var row = $('#dg').datagrid('getRows')[index];
